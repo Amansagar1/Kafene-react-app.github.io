@@ -1,0 +1,84 @@
+.productmain {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+margin-top: 20px;
+  }
+  
+  .pro-left {
+    width: 30%;
+  }
+  
+  .pro-left h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .pro-filter {
+    margin-bottom: 20px;
+  }
+  
+  .pro-filter h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .procheck-iteam{
+    display: flex;
+    flex-direction: column;
+  }
+  .procheck-iteam label{
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .productname-hed {
+   
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  .productname-hed{
+    text-align: center;
+  }
+  
+  .prodetails {
+    overflow-y: auto;
+    max-height: 500px;
+    background-color: #FFFFFF;
+  }
+  
+  .prodetails div {
+   
+    display: grid;
+    grid-template-columns: repeat(7, 1fr );
+   gap: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .stockname{
+    margin-left: 180px;
+  }
+  .prodetails div:last-child {
+    border-bottom: none;
+  }
+  .pro-stock{
+    margin-right: 200%;
+  }
+  
+  .pro-id,
+  .pro-mediname,
+  .pro-medibrand,
+  .pro-date,
+  .pro-price,
+  .pro-script,
+  .pro-stock {
+    text-align: center;
+  }
+  
+  .pro-id,
+  .pro-price {
+    color: #978c90;
+  }
+  

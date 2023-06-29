@@ -1,0 +1,119 @@
+/* .ordermain{
+    margin-top: 40px;
+    display: flex;
+}
+.left{
+    margin-left: 90px;
+}
+
+div h2,p{
+    font-size: 20px;
+    width: 50px;
+    
+}
+
+.check-iteam{
+    display: grid;
+    grid-gap: 10px;
+}
+.name-hed{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px;
+    padding-left: 40px;
+    gap: 210px;
+    box-shadow: 0px 0px 1px 1px;
+
+} */
+/* .details{
+  padding-left: 40px;
+   
+} */
+body{
+    background-color: #f1f1f1;
+}
+.ordermain {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+margin-top: 20px;
+   
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .left h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .check-iteam {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .check-iteam label {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .heding-name {
+    width: 90%;
+  }
+  
+  
+  .name-hed {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .name-hed p {
+    text-align: center;
+  }
+  
+  .details {
+    overflow-y: auto;
+    max-height: 500px;
+    background-color: #FFFFFF;
+  }
+  
+  .details div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .details div:last-child {
+    border-bottom: none;
+  }
+  
+  .id,
+  .cust,
+  .dta,
+  .amunt,
+  .ordstatus {
+    text-align: center;
+  }
+  .id,.amunt{
+    color: #978C90;
+  }
+  
+  

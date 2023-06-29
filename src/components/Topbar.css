@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    width: 100%;
+    box-shadow: 10px 4px 6px #ccc;
+    background-color: #fff;
+}
+.leftmenue{
+    margin: 15px;
+}
+.logo{
+    margin-top: 10px;
+   margin-left: 60px;
+}
+.rightmenue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.menue-iteam{
+    padding: 5px;
+}
+.order, .product,.users{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.logoutbtn{
+    background-color: #fff;
+    border: none;
+    margin-left: 300%;
+    text-decoration: none;
+}
+
+.active {
+    color: #20B883;
+    
+  }

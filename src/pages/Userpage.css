@@ -1,0 +1,130 @@
+.main-user{
+    margin-top: 100px;
+    
+}
+.user-main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+
+.user-head{
+    margin: 0;
+    display: flex;
+}
+.userwraper{
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.userfilter-wraper{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+    
+
+}
+.search-user{
+    width: calc(100% - 100px);
+    padding: 12px 24px;
+    font-size: 15px;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin: 0 36px 0 0;
+    outline: none;
+    
+}
+.reset-btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Userslist-head{
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.userlistmain{
+    overflow-y: auto;
+    max-height: 500px;
+    background-color: #FFFFFF;
+}
+.user-list{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr );
+   gap: 5px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    
+  
+}
+.user-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+
+  .user-list,
+  .user-user-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr );
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-id,
+  .user-img,
+  .full-name,
+  .user-dob,
+  .user-gender,
+  .user-location {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    
+  }
+
+  .userid{
+display: flex;
+  }
+  .useravtar{
+    display: flex;
+  }
+ .username{
+    display: flex;
+ }
+  .userdob{
+    display: flex;
+  }
+  .usergender{
+    display: flex;
+  }
+
+  .usergender{
+    display: flex;
+  }
